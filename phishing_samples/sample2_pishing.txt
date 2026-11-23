@@ -1,1 +1,26 @@
 
+EMAIL SAMPLE 2
+
+Classification: Suspicious
+
+From: recruitment-team@jobs-example.invalid
+
+To: applicant@example.com
+
+Subject: Congratulations! You Have Been Selected!
+
+Message:
+
+Dear Applicant,
+
+Congratulations! You have been shortlisted for an exciting job opportunity.
+
+To continue with your application, please provide your personal information using the link below.
+
+http://jobs-example.invalid/application
+
+Please respond as soon as possible.
+
+Regards,
+Recruitment Department
+
