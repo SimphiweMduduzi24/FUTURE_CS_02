@@ -1,0 +1,23 @@
+
+EMAIL SAMPLE 3
+
+Classification: Appears Safe
+
+From: student-services@university.example
+
+To: student@example.com
+
+Subject: Examination Timetable Available
+
+Message:
+
+Dear Student,
+
+Your examination timetable is now available.
+
+Please visit your university's usual student portal by entering its known address directly into your browser.
+
+If you have any questions, contact the university administration through its official communication channels.
+
+Regards,
+Student Services Department
