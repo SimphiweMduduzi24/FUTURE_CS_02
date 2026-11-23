@@ -1,1 +1,28 @@
 
+EMAIL SAMPLE 1
+
+Classification: Phishing
+
+From: security-alert@bank-example.invalid
+
+To: customer@example.com
+
+Subject: URGENT! Your Bank Account Will Be Blocked!
+
+Message:
+
+Dear Customer,
+
+We detected unusual activity on your bank account.
+
+Your account will be permanently suspended within 24 hours unless you verify your banking details immediately.
+
+Click the link below to restore your account:
+
+http://bank-example.invalid/verify
+
+Failure to respond will result in permanent account suspension.
+
+Regards,
+Online Banking Security Team
+
