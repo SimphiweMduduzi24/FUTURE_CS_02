@@ -51,6 +51,45 @@ Reason: The authentication failures and unusual sender information, combined wit
 - Check SPF, DKIM and DMARC results.
 - Report suspected phishing emails to the relevant organisation.
 
+- ## Additional Demonstration: Google Admin Toolbox Messageheader
+
+### Tool Used
+Google Admin Toolbox – Messageheader
+
+### Purpose
+The tool was used to examine an example email header and understand how email authentication and delivery information can be analysed.
+
+### Observed Results
+
+| Authentication Check | Result |
+|---|---|
+| SPF | PASS |
+| DKIM | PASS |
+| DMARC | PASS |
+
+### Findings
+
+The example email passed all three authentication checks.
+
+- **SPF:** The sending server passed the sender-policy authentication check. The displayed IP address was unknown.
+- **DKIM:** The email's cryptographic signature passed verification for contoso.com.
+- **DMARC:** The email passed the domain authentication and alignment check.
+
+The message travelled from mail.contoso.com to Google's mail server. The displayed delivery time was approximately 10 seconds.
+
+### Security Interpretation
+
+Passing SPF, DKIM and DMARC is a positive authentication result. However, these checks do not guarantee that an email is harmless. Users must still inspect the sender, message content, links and attachments.
+
+### Limitations
+
+This was a demonstration using an example header. It was not one of the three fictional phishing samples created for this project, and it does not establish that any of those samples passed or failed authentication.
+
+### Tool Reference
+Google Admin Toolbox Messageheader: https://toolbox.googleapps.com/apps/messageheader/
+
+Google Workspace documentation: https://knowledge.workspace.google.com/admin/security/troubleshoot-dmarc-issues
+
 ## Conclusion
 
 Email header analysis helps cybersecurity analysts investigate suspicious email activity and identify possible sender impersonation.
