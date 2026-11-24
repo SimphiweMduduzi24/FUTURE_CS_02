@@ -87,3 +87,19 @@ Email 3 appeared safe based on its content, but its sender identity has not been
 This investigation demonstrates the importance of examining email content, sender information and links before trusting an email.
 
 **Note:** These are fictional training samples. The classifications are preliminary and are based on the information provided in the sample messages, not verified email headers or live domain investigations.
+
+## Comparative Analysis of Email Samples
+
+| Sample | Classification | Risk Level | Main Reason |
+|---|---|---|---|
+| Sample 1 | Phishing | High | Urgent account suspension warning and request to verify personal information through an unfamiliar link. |
+| Sample 2 | Suspicious | Medium | Unexpected job-selection message requesting personal information through an unfamiliar website. |
+| Sample 3 | Appears Safe | Low | University timetable notification directing the recipient to their usual student portal. |
+
+### Overall Findings
+
+The comparison shows that phishing emails often use urgency, unexpected opportunities and requests for personal information to influence recipients.
+
+Users should verify unexpected messages independently before clicking links or sharing sensitive information.
+
+**Note:** These classifications are based on fictional training samples and their written characteristics. They are not results from live email investigations.
